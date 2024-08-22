@@ -2,13 +2,13 @@
 import React from "react";
 
 export default function DownloadPage() {
-  const imageUrl = "/modified_image_with_metadata.jpg"; // Caminho correto da imagem
+  const imageUrl = "/achou-que-ia-ser-facil.jpg"; // Caminho correto da imagem
 
   const downloadImage = () => {
     // Criar um link para baixar a imagem
     const link = document.createElement("a");
     link.href = imageUrl;
-    link.download = "modified_image_with_metadata.jpg";
+    link.download = "achou-que-ia-ser-facil.jpg";
     link.click();
   };
 
@@ -29,7 +29,7 @@ export default function DownloadPage() {
       </a>
       <span
         style={{
-          display: "inline-block",
+          display: "none",
           position: "absolute",
           right: "0px",
           bottom: "0px",
